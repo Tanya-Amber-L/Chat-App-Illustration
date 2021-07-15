@@ -14,10 +14,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 ## Overview
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout for the component depending on their device's screen size
-- **Bonus**: See the chat interface animate on the initial load
+Users should be able to view the optimal layout for the component depending on their device's screen size
 
 ### Screenshot
 

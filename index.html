@@ -8,15 +8,23 @@
     <title>Chat-App Illustration</title>
 
 </head>
-<body>
+<body class="overflow-x-hidden">
+
+    <div class="absolute top-0 bg-gradient-to-t from-custom-purple to-custom-pink w-1/2 h-2/3 -z-10 rounded-br-full 
+    md:w-2/5 md:max-w-md md:h-4/5 md:rounded-b-full md:-left-24">
+    </div>
+    <div class="absolute bottom-0 right-0 bg-gradient-to-t from-light-purple to-light-pink w-1/2 h-2/5 -z-10 rounded-tl-full 
+    md:w-2/5 md:max-w-md md:h-4/5 md:rounded-t-full md:-right-24">
+    </div>
+
     <main class="py-10 md:p-10 m-auto flex flex-col md:flex-row md:items-center md:justify-evenly h-screen max-w-screen-xl">
 
         <section class="font-sans flex justify-center align-center">
-            <div class="w-80 shadow-2xl rounded-4xl">
+            <div class="w-80 shadow-2xl rounded-4xl bg-white">
                 <div class="relative m-3 pb-px bg-gray-100 rounded-3xl">
                     <div class="bg-white absolute w-36 h-5 left-1/4 rounded-b-2xl"></div>
 
-                    <div class="text-white bg-gradient-to-r from-purple-500 to-pink-500 rounded-t-2xl rounded-b-lg pt-6 p-2 flex items-center justify-between">
+                    <div class="text-white bg-gradient-to-r from-custom-purple to-custom-pink rounded-t-3xl rounded-b-lg pt-6 p-2 flex items-center justify-between">
                         <div class="flex flex-row items-center">
                             <i class="fas fa-chevron-left text-sm"></i>
                             <img class="rounded-full border border-white w-8 h-8 mx-2" src="./images/avatar.jpg" alt="chat avatar">
@@ -42,27 +50,27 @@
                         </div>
                         
                         <div class="bg-purple-100 text-purple-800 w-3/5 m-2 py-1 px-2 rounded-xl rounded-bl shadow">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
-                        <div class="text-white bg-gradient-to-r from-purple-500 to-pink-500 w-3/5 m-2 py-1 px-2 rounded-xl rounded-bl shadow">
+                        <div class="text-white bg-gradient-to-r from-custom-purple to-custom-pink w-3/5 m-2 py-1 px-2 rounded-xl rounded-bl shadow flex items-center">
                             <input class="border border-transparent focus:outline-none" type="radio" id="30min" name="walk" value="30min">
-                            <label for="30min">30 minute walk <span class="text-lg font-bold">$29</span> </label>
+                            <label class="w-full flex justify-between items-center pl-2" for="30min">30 minute walk <span class="text-lg font-bold">$29</span> </label>
                         </div>
-                        <div class="text-white bg-gradient-to-r from-purple-500 to-pink-500 w-3/5 m-2 py-1 px-2 rounded-xl rounded-bl shadow">
+                        <div class="text-white bg-gradient-to-r from-custom-purple to-custom-pink w-3/5 m-2 py-1 px-2 rounded-xl rounded-bl shadow flex items-center">
                             <input class="border border-transparent focus:outline-none" type="radio" id="1h" name="walk" value="1h">
-                            <label for="1h">1 hour walk <span class="text-lg font-bold">$49</span></label>
+                            <label class="w-full flex justify-between items-center pl-2" for="1h">1 hour walk <span class="text-lg font-bold">$49</span></label>
                         </div>
                     </div>
 
-                    <div class="bg-white m-2 mt-4 px-3 py-2 rounded-2xl flex justify-between items-center">
-                        <p class="text-xs text-gray-300">Type a message…</p>
-                        <div class="bg-purple-900 text-white w-8 h-8 rounded-full flex justify-center items-center"><i class="fas fa-chevron-right"></i></div>
+                    <div class="bg-white border border-transparent m-2 mt-4 px-3 py-1 rounded-2xl flex justify-between items-center focus-within:border-purple-300">
+                        <input type="text" placeholder="Type a message…" class="text-xs text-gray-300 px-3 py-2 focus:outline-none"></input>
+                        <button class="bg-purple-900 hover:bg-purple-700 text-white w-8 h-8 rounded-full flex justify-center items-center"><i class="fas fa-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <article class="text-center pt-12 flex flex-col items-center">
-            <h1 class="text-4xl text-purple-900 font-bold">Simple booking</h1>
-            <p class="text-gray-500 py-6 px-10 max-w-xl">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        <article class="text-center md:text-left pt-12 flex flex-col items-center md:items-start md:pl-10">
+            <h1 class="text-5xl text-purple-900 font-bold">Simple booking</h1>
+            <p class="text-gray-500 py-6 px-10 max-w-lg md:px-0">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
                 discuss arrangements and make bookings. Once the walk has been completed you can rate 
                 your walker and book again all through the chat.</p>
         </article>

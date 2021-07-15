@@ -27,6 +27,24 @@ module.exports = {
             '4xl': '2rem',
             'full': '9999px',
             'large': '12px',
+        },
+        extend: {
+            zIndex: {
+                '-20': -20,
+                '-10': -10,
+                '0': 0,
+                '10': 10,
+                '20': 20,
+                '30': 30,
+                '40': 40,
+                '50': 50,
+            },
+            colors: {
+                'custom-purple': '#903afe',
+                'custom-pink': '#cb41fa',
+                'light-purple': '#f8f3fa',
+                'light-pink': '#f6f5fa',
+            }
         }
     }
 }
