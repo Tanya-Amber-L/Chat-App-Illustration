@@ -21,7 +21,7 @@ Users should be able to view the optimal layout for the component depending on t
 ![](./screenshot.jpg)
 ### Links
 
-- Live Site URL: []()
+- [Live Site URL](https://tanya-amber-l.github.io/Chat-App-Illustration/)
 
 ## Built with
 
