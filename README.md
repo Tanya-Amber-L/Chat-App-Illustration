@@ -19,7 +19,7 @@ Users should be able to view the optimal layout for the component depending on t
 ### Screenshot
 | Mobile View  | Desktop View  |
 |----------|:-------------:|
-| ![mobile view](./images/screenshot-mobile.png)  | ![desktop view](./images/screenshot-desktop.png)  |
+| ![mobile view](./design/screenshot-mobile.png)  | ![desktop view](./design/screenshot-desktop.png)  |
 
 ### Links
 
