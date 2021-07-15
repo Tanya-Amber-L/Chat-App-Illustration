@@ -17,8 +17,10 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 Users should be able to view the optimal layout for the component depending on their device's screen size
 
 ### Screenshot
+| Mobile View  | Desktop View  |
+|----------|:-------------:|
+| ![mobile view](./images/screenshot-mobile.png)  | ![desktop view](./images/screenshot-desktop.png)  |
 
-![](./screenshot.jpg)
 ### Links
 
 - [Live Site URL](https://tanya-amber-l.github.io/Chat-App-Illustration/)
